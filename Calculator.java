@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class Calculator {
-int n1,n2,sum,sub,mul,div;
+
+int n1,n2,sum,sub,mul;
+float div;
 Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args){
@@ -13,9 +15,7 @@ Scanner sc = new Scanner(System.in);
     }
 
     void getdata(){
-        
-        
-        
+          
         System.out.print("Enter First Number : ");
         n1 = sc.nextInt();
         System.out.print("Enter Second Number : ");
@@ -26,7 +26,7 @@ Scanner sc = new Scanner(System.in);
         do{
             int choice;
             
-            System.out.println("::Enter Your Choice::");
+            System.out.println("\nEnter Your Choice:");
             System.out.println("1.Addition");
             System.out.println("2.Substraction");
             System.out.println("3.Multiplicaton");
@@ -54,11 +54,11 @@ Scanner sc = new Scanner(System.in);
 
                 case 4:
                     if (n2 == 0) {
-                        System.out.print("Can Not Divide by ZERO!");
+                        System.out.print("\nCan Not Divide by ZERO!");
                     }
                     else{
-                    div = n1/n2;
-                    System.out.println("Sum of this Numbers is "+div);
+                    div = (float)n1/n2;
+                    System.out.println("Division of this Numbers is "+div);
                     }
                     break;
                 case 5:
