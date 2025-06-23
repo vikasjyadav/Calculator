@@ -26,7 +26,7 @@ Scanner sc = new Scanner(System.in);
         do{
             int choice;
             
-            System.out.println("Enter Your Choice");
+            System.out.println("::Enter Your Choice::");
             System.out.println("1.Addition");
             System.out.println("2.Substraction");
             System.out.println("3.Multiplicaton");
