@@ -28,8 +28,8 @@ Scanner sc = new Scanner(System.in);
             
             System.out.println("\nEnter Your Choice:");
             System.out.println("1.Addition");
-            System.out.println("2.Substraction");
-            System.out.println("3.Multiplicaton");
+            System.out.println("2.Subtraction");
+            System.out.println("3.Multiplication");
             System.out.println("4.Divison");
             System.out.println("5.Exit");
 
@@ -39,17 +39,17 @@ Scanner sc = new Scanner(System.in);
             switch (choice) {
                 case 1:
                     sum = n1+n2;
-                    System.out.println("Sum of this Numbers is "+sum);
+                    System.out.println("Sum of these Numbers is "+sum);
                     break;
 
                 case 2:
                     sub = n1-n2;
-                    System.out.println("Substraction of this Numbers is "+sub);
+                    System.out.println("Substraction of these Numbers is "+sub);
                     break;
 
                 case 3:
                     mul = n1*n2;
-                    System.out.println("Multiplication of this Numbers is "+mul);
+                    System.out.println("Multiplication of these Numbers is "+mul);
                     break;
 
                 case 4:
@@ -58,7 +58,7 @@ Scanner sc = new Scanner(System.in);
                     }
                     else{
                     div = (float)n1/n2;
-                    System.out.println("Division of this Numbers is "+div);
+                    System.out.println("Division of these Numbers is "+div);
                     }
                     break;
                 case 5:
