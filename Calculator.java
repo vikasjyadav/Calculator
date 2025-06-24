@@ -67,6 +67,16 @@ Scanner sc = new Scanner(System.in);
             
                 
             }
+            int temp;
+            System.out.println("Do You Want To Change The Numbers ? \nPress 1 If YES.");
+            temp = sc.nextInt();
+            if(temp == 1){
+                System.out.print("Enter First Number : ");
+                n1 = sc.nextInt();
+                System.out.print("Enter Second Number : ");
+                n2 = sc.nextInt();
+            }
+
          }while(true);
     }
 }
